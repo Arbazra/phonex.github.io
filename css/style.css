@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: rgb(34, 34, 121); */
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    
+}
+.logo{
+    width: 30%;
+    /* background: purple; */
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+    margin-right: 15px;
+    border-radius: 20px;
+}
+.logo p{
+    font-size: 30px;
+    color: white;
+}
+.navbar{
+    width: 60%;
+    /* background: green; */
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.navbar a:hover{
+    color: darkred;
+    /* font-weight: bold; */
+}
+.container1{
+    height: 60vh;
+    width: 100%;
+    background-image: url(img/igor-miske-Px3iBXV-4TU-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Service{
+    width: 100%;
+    height: 100vh;
+    background-color:gainsboro;
+    
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    
+
+}
+.b1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 20%;
+    height: 20%;
+    /* border: 2px solid gray;
+    border-radius: 10px;
+     */
+}
+.b1 img{
+    border-radius: 5px;
+    
+}
+.b1 p{
+    font-size: 20px;
+    color: black;
+}
+.about{
+    width: 100%;
+    height: 100vh;
+    background-color: gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+.c3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: justify;
+}
+.imag{
+    background-image: url(img/about.jpg);
+    background-size: cover;
+    width: 60%;
+    height: 600px;
+    
+}
+#red{
+    color: red;
+
+}
+#green{
+    color: green;
+    /* border-bottom: 2px solid black; */
+}
+h3{
+    color: black;
+    font-size: 25px;
+    text-align: center;
+}
+.contact{
+    width: 100%;
+    height: 70vh;
+    background-color: gainsboro;
+    padding-top: 160px;
+}
+.contact h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: rgb(34, 34, 121); */
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    width: 100%;
+    height: 60px;
+}
+
+#star{
+    color: gold;
+}
+/* .members{
+    background-color: gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.members .b1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-right: 120px;
+    margin-left: 120px;
+}
+#member img{
+    border-radius: 350%;
+    width: 250px;
+}
+#member p{
+    font-weight: bold;
+} */
+
+.reviews{
+    background:gainsboro;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.reviews #m{
+    font-weight: bolder;
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+.rev{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.r1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+    margin-left: 20px;
+    background: white;
+    border-radius: 20px;
+    /* background: #000; */
+}
+.r1 img{
+    border-radius: 135px;
+}
+.r1 .content{
+    text-align: justify;
+    width: 300px;
+    margin-top: 5px;
+}
+.nam{
+    flex-direction: column;
+    font-size: 20px;
+    margin-top: 5px;
+}

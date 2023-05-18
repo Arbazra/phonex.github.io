@@ -1,0 +1,233 @@
+@media screen and (max-width:1000px){
+
+    .logo{
+        height: 5vh;
+        
+    }
+    .logo p{
+        font-size: 15px;
+    }
+    .navbar{
+        height: 5vh;
+        
+    }
+    .navbar a{
+        font-size: 15px;
+    }
+    .Service{
+        height: 2000px;
+    }
+    .box{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+    .b1{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 10px;
+        margin-bottom: 12px;
+        text-align: center;
+        width: 300px;
+    }
+    .container1{
+        height: 400px;
+    }
+    .about{
+        height: 900px;
+    }
+    .contact{
+        height: 1000px;
+    }
+    .reviews{
+        height: 1200px;
+    }
+    .rev{
+        flex-direction: column;
+        /* margin-top: 50px; */
+    }
+    .r1{
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width:850px){
+
+    .logo{
+        height: 5vh;
+        
+    }
+    .logo p{
+        font-size: 15px;
+    }
+    .navbar{
+        height: 5vh;
+        
+    }
+    .navbar a{
+        font-size: 15px;
+    }
+    .container1{
+        height: 500px;
+    }
+    .Service{
+        height: 2050px;
+    }
+    .box{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+    .b1{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 10px;
+        margin-bottom: 12px;
+        text-align: center;
+    }
+    .about{
+        height: 1000px;
+        
+    }
+    .contact{
+        height: 1000px;
+    }
+    footer{
+        font-size: 20px;
+        text-align: center;
+    }
+}
+@media screen and (max-width:500px){
+
+    .logo{
+        height: 5vh;
+        
+    }
+    .logo p{
+        font-size: 15px;
+    }
+    .navbar{
+        height: 5vh;
+        
+    }
+    .navbar a{
+        font-size: 15px;
+    }
+    .container1{
+        height: 450px;
+        background-size: cover;
+    }
+    .Service{
+        height: 2000px;
+    }
+    .box{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+    .b1{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 10px;
+        margin-bottom: 12px;
+        /* background: none; */
+        /* border: 2px solid brown; */
+        width: 200px;
+        text-align: justify;
+    }
+    .b1 img{
+        height: 220px;
+        width: 250px;
+    }
+    .about{
+        height: 1300px;
+        flex-direction: column;
+        text-align: justify;
+    }
+    .imag{
+        width: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .contact{
+        height: 1000px;
+    }
+    .contact img{
+        height: 250px;
+        width: 250px;
+    }
+    footer{
+        font-size: 20px;
+        text-align: center;
+    }
+}
+@media screen and (max-width:400px){
+
+    .logo{
+        height: 5vh;
+        
+    }
+    .logo p{
+        font-size: 15px;
+    }
+    .navbar{
+        height: 5vh;
+    }
+    .navbar a{
+        font-size: 15px;
+    }
+    .navbar a:hover{
+        font-size: 15px;
+    }
+    .container1{
+        height: 400px;
+        background-size: cover;
+    }
+    .Service{
+        height: 2500px;
+    }
+    .box{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+    .b1{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 10px;
+        margin-bottom: 12px;
+        /* background:none; */
+        /* border: 2px solid brown; */
+        width: 200px;
+        text-align: justify;
+    }
+    .b1 img{
+        height: 250px;
+        width: 250px;
+        
+    }
+    .about{
+        /* padding-top: 120px; */
+        height: 1300px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .contact{
+        height: 1000px;
+    }
+    .contact img{
+        height: 250px;
+        width: 250px;
+    }
+    footer{
+        font-size: 20px;
+        text-align: center;
+    }
+}
